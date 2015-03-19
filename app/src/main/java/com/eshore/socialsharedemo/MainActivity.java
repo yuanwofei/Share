@@ -1,11 +1,8 @@
 package com.eshore.socialsharedemo;
 
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-
-import com.eshore.socialsharedemo.R;
 
 public class MainActivity extends ShareActivity implements OnClickListener {	
 	
@@ -20,7 +17,7 @@ public class MainActivity extends ShareActivity implements OnClickListener {
 	
 	@Override
 	public void share(int id) {
-		socialShare.shareText(id, "测试文字");
+		socialShare.shareText(id, "测试文字分享");
 		/*socialShare.shareWebPage(
 				id, 
 				"shareDemo", 

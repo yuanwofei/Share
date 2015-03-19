@@ -8,6 +8,8 @@ android {
         applicationId "com.eshore.socialsharedemo"
         minSdkVersion 8
         targetSdkVersion 21
+
+
     }
 
     buildTypes {
